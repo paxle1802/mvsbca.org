@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
+  <div class="topbar"><div class="topbar__inner"><a href="mailto:info@mvsbca.org">info@mvsbca.org</a><span>(315) 601-0363</span><span>Utica, New York</span></div></div>
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="index.html">
@@ -21,22 +22,20 @@
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="leadership.html">Leadership</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a class="btn btn--gold" href="donate.html">Donate</a></li>
-      </ul>
+        <li><a href="contact.html">Contact</a></li>      </ul>
     </nav>
   </header>
 
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero hero--photo">
       <div class="container">
-        <span class="badge">501(c)(3) Nonprofit · Serving Utica &amp; the Mohawk Valley</span>
+        <p class="hero__tagline">Welcome &middot; Belong &middot; Thrive</p>
         <h1>Helping Somali Bantu &amp; refugee families build a home in Utica.</h1>
         <p class="lead">We walk alongside newly arrived and resettled families &mdash; offering interpretation, education, youth programs, and the everyday help they need to feel safe, settled, and self-reliant in their new community.</p>
         <div class="btn-row">
           <a class="btn btn--gold" href="services.html">Explore our services</a>
-          <a class="btn btn--ghost" href="donate.html">Support our work</a>
+          <a class="btn btn--ghost" href="contact.html">Get in touch</a>
         </div>
       </div>
     </section>
@@ -105,12 +104,9 @@
             <li>Youth adjusting to school in a new country</li>
             <li>Elders and families needing service navigation</li>
           </ul>
+          <p class="legal" style="margin-top:16px">A registered 501(c)(3) public charity &middot; EIN 27-0158992 &middot; founded by community members in 2008.</p>
         </div>
-        <div class="panel">
-          <h3>A recognized community nonprofit</h3>
-          <p>The Mohawk Valley Somali Bantu Community Association is a registered 501(c)(3) public charity, founded by community members to serve Utica&rsquo;s refugee families.</p>
-          <p class="legal">EIN 27-0158992 &middot; Tax-exempt 501(c)(3) &middot; Established 2008</p>
-        </div>
+        <div class="media"><img src="assets/img/community-diverse.jpg" alt="A diverse group of immigrants and refugees standing together" /></div>
       </div>
     </section>
 
@@ -125,14 +121,21 @@
       </div>
     </section>
 
+    <!-- Quote -->
+    <section class="section quote">
+      <div class="container">
+        <blockquote>When a family can be understood, fill out the right form, and find a neighbor who speaks their language, a new country starts to feel like home.</blockquote>
+        <cite>Mohawk Valley Somali Bantu Community Association</cite>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="section cta">
       <div class="container">
-        <h2>Your support helps a family find their footing.</h2>
-        <p class="lead center" style="color:#3a2700">Every gift helps us translate, teach, mentor, and guide refugee families toward a confident new beginning.</p>
+        <h2>Need help, or want to get involved?</h2>
+        <p class="lead center">Whether you&rsquo;re a family seeking support or a neighbor who wants to help, we&rsquo;d love to hear from you.</p>
         <div class="btn-row center">
-          <a class="btn btn--navy" href="donate.html">Donate today</a>
-          <a class="btn btn--navy" href="contact.html" style="background:transparent;border:2px solid #2a1c00;color:#2a1c00">Get in touch</a>
+          <a class="btn" href="contact.html" style="background:#fff;color:var(--coral-dark)">Contact us</a>
         </div>
       </div>
     </section>
@@ -151,9 +154,7 @@
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Our Services</a></li>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="donate.html">Donate</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="leadership.html">Leadership</a></li>            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div>
@@ -164,9 +165,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; <span id="year"></span> Mohawk Valley Somali Bantu Community Association, Inc. All rights reserved.</span>
-        <span>Donations are tax-deductible to the extent allowed by law.</span>
-      </div>
+        <span>&copy; <span id="year"></span> Mohawk Valley Somali Bantu Community Association, Inc. All rights reserved.</span>      </div>
     </div>
   </footer>
   <script src="assets/js/main.js"></script>
