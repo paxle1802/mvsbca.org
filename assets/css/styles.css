@@ -161,7 +161,7 @@ img { max-width: 100%; display: block; }
 .topbar span::before { content: ""; position: absolute; left: 6px; top: 50%; width: 5px; height: 5px; border-radius: 50%; background: var(--coral); transform: translateY(-50%); }
 
 /* Photo hero (supportiveservices-style full-bleed) */
-.hero--photo { background: linear-gradient(90deg, rgba(10,37,64,.88) 0%, rgba(10,37,64,.66) 52%, rgba(10,37,64,.34) 100%), url("../img/hero-community.jpg"); background-repeat: no-repeat, no-repeat; background-size: cover, cover; background-position: center, center 150px; padding: 124px 0; }
+.hero--photo { background: linear-gradient(90deg, rgba(10,37,64,.88) 0%, rgba(10,37,64,.66) 52%, rgba(10,37,64,.34) 100%), url("../img/hero-community.jpg"); background-repeat: no-repeat; background-size: cover; padding: 124px 0; }
 .hero--photo::before, .hero--photo::after { display: none; }
 .hero__tagline { font-family: var(--display); font-weight: 800; color: var(--coral); text-transform: uppercase; letter-spacing: .07em; font-size: .92rem; margin: 0 0 14px; }
 
